@@ -1,4 +1,4 @@
-let idade = prompt("Olá! Qual sua idade?");
+let idade = Number(prompt("Olá! Qual sua idade?"));
 let filme = prompt("Digite o nome do filme que deseja assistir: \n Filme 1 \n Filme 2 \n Filme 3 \n Filme 4 \n Filme 5");
 let outro;
 //array a ser preenchido com os objetos
@@ -46,3 +46,16 @@ if (filme == "Filme 1" || filme == "Filme 4"){
 } else {
     alert(`Deseja comprar seu ingresso agora?`);
 }
+
+
+
+
+//let filmes = [
+//    { titulo: 'filme', classificacao: '0'},
+//    {...}
+//];
+
+//if (idade >=18) {
+//    alert(`Voce pode assistir aos filmes
+//    - ${filmes[0].titulo} - classificação ${filmes[0].classificacao}`);
+//}
